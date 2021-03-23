@@ -1,5 +1,5 @@
+#导入OpenCv人脸识别库
 import cv2
-import numpy as np
 #读取人脸模型库
 face_cascade = cv2.CascadeClassifier('RecognitionModel.xml')
 #获取摄像头
